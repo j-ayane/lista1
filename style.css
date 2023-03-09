@@ -1,3 +1,6 @@
+
+/* index.html stylesheet */
+
 #titulo {
     width: 850px;
     margin: auto;
@@ -27,4 +30,9 @@ label {
 #cep {
     margin-left: 20px;
 }
-
+#link {
+    color: black;
+}
+#separador {
+    margin: 50px 0px;
+}
