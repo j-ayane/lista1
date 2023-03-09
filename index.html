@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Formulário</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="titulo">Formulário</h1>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome"><br>
+                <label for="nascimento">Data de nascimento</label>
+                <input type="text" name="nascimento" id="nascimento"><br>
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco"> <br>
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade"> <br>
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                <option value="am">Amazonas</option>
+                <option value="ba">Bahia</option>
+                <option value="ce">Ceará</option>
+                <option value="df">Distrito Federal</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                Natureza do Cargo <br>
+                <input type="radio" name="prof" id="gerencia">
+                <label for="gerencia">Gerência</label>
+                <input type="radio" name="prof" id="financeiro">
+                <label for="financeiro">Financeiro</label>
+                <input type="radio" name="prof" id="recepcao">
+                <label for="recepcao">Recepção</label>
+                <input type="radio" name="prof" id="admin">
+                <label for="admin">Administração</label>
+                <input type="radio" name="prof" id="juridico">
+                <label for="juridico">Jurídico</label>
+                <br>
+                Área de interesse
+                <br>
+                <input type="checkbox" name="interesse" id="comput">
+                <label for="comput">Computação</label>
+                <input type="checkbox" name="interesse" id="quimica">
+                <label for="quimica">Química</label>
+                <input type="checkbox" name="interesse" id="ambiente">
+                <label for="ambiente">Meio Ambiente</label>
+                <input type="checkbox" name="interesse" id="eng">
+                <label for="eng">Engenharia</label>
+                <input type="checkbox" name="interesse" id="matem">
+                <label for="matem">Matemática</label>
+                <br>
+                Mini-currículo:
+                <textarea name="curriculo" id="curriculo" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <h2><a href="q2.html">Questão 2</a></h2>
+        </form>
+    </body>
+</html>
