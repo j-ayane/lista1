@@ -1,0 +1,29 @@
+#titulo {
+    width: 850px;
+    margin: auto;
+}
+fieldset {
+    width: 850px;
+    margin: auto;
+}
+input{
+    margin: 2px;
+}
+label {
+    margin: 5px;
+    text-align: center;
+}
+
+/* --- IDs ---*/
+#nome {
+    width: 700px;
+}
+#nascimento {
+    width: 250px;
+}
+#endereco {
+    width: 670px;
+}
+#cep {
+    margin-left: 20px;
+}
